@@ -1,0 +1,7 @@
+{
+  "name": "Obscure Reference",
+  "cast": ["{} makes an obscure reference."],
+  "types": ["Occult", "Philosophy"],
+  "effects": ["excluded", "included"],
+  "base_damage": 10
+}

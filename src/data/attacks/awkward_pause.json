@@ -1,0 +1,9 @@
+{
+  "name": "Awkward Pause",
+  "cast": [
+    "{} pauses, awkwardly", ". . .", "{} looks like they're about to say something."
+  ],
+  "types": ["Small Talk"],
+  "base_damage": -2,
+  "effects": ["adorkable"]
+}

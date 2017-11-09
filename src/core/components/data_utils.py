@@ -1,9 +1,10 @@
 import json
 import os
 
-from paths import DATA_DIR
 from src.core.attack import Attack
-from src.core.char import Character
+
+from paths import DATA_DIR
+from src.core.components.char import Character
 
 
 def character_from_json(file_name, data_dir=None):

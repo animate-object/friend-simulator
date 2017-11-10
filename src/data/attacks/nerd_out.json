@@ -2,5 +2,5 @@
   "name": "Nerd Out",
   "base_damage": 5,
   "types": ["Tech", "Occult"],
-  "cast": "{} nerds out!"
+  "cast": ["{} nerds out!"]
 }

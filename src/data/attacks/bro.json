@@ -1,0 +1,6 @@
+{
+  "name": "Bro",
+  "types": ["Tom Foolery", "Sports"],
+  "base_damage": 5,
+  "cast": ["{caster} is bro-ing hard", "{caster}: Bro!!!!"]
+}

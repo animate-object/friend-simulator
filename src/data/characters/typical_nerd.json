@@ -1,10 +1,13 @@
 {
-  "name":"Gary Santiago",
+  "name":"Ellie Santiago",
   "interests": ["Tech", "Philosophy"],
   "attacks": [
     "nerd_out",
     "obscure_reference",
     "awkward_pause"
   ],
-  "health": 12
+  "health": 12,
+  "pn": "she",
+  "ppn": "her",
+  "opn": "her"
 }

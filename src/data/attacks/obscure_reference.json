@@ -1,7 +1,19 @@
 {
   "name": "Obscure Reference",
-  "cast": ["{} makes an obscure reference."],
+  "cast": ["{caster} makes an obscure reference."],
   "types": ["Occult", "Philosophy"],
-  "effects": ["excluded", "included"],
+  "effects": [
+    {
+      "name": "included-excluded",
+      "success_message": [
+        "{target} saw that episode!",
+        "{target} is familiar."
+      ],
+      "failure_message": [
+        "{target} is totally in the dark.",
+        "{caster} can hear crickets."
+      ]
+    }
+  ],
   "base_damage": 10
 }

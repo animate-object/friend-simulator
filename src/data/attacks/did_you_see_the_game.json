@@ -1,0 +1,14 @@
+{
+  "name": "Did you see the game",
+  "types": ["Sports", "Small Talk"],
+  "base_damage": 10,
+  "effects": [
+    {
+      "name": "included",
+      "success_message": ["{target} *did* see the game!"]
+    }
+  ],
+  "cast": [
+    "{caster} inquires as to whether {target} caught the game."
+  ]
+}

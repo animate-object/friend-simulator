@@ -1,0 +1,16 @@
+{
+  "name": "Boyish Charm",
+  "types": ["Tom Foolery", "Small Talk"],
+  "base_damage": 10,
+  "effects": [
+    {
+      "name":"charm",
+      "chance": 0.4,
+      "success_message": [
+        "{caster} is so charming, isn't {caster_opn}.",
+        "{target} finds {target_opn}self charmed."
+      ]
+    }
+  ],
+  "cast": ["{caster} embodies boyish charm", "{caster} uses {caster_ppn} boyish charm"]
+}

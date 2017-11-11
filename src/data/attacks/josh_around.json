@@ -1,0 +1,16 @@
+{
+  "name": "Josh Around",
+  "types": ["Tom Foolery"],
+  "base_damage": 15,
+  "cast": ["{caster} is just joshing around", "{caster} joshes all over the place", "{caster} joshes wildly"],
+  "effects": [
+    {
+      "name": "confusing",
+      "chance": 0.15,
+      "success_message": [
+        "No one can tell if {caster} is joking or not. . .",
+        "{target} thinks {caster} might not be kidding."
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ from marshmallow import ValidationError
 from pytest import fail, mark
 
 from paths import DATA_DIR
-from test.data.data_models import CharacterSchema
+from test.data.validation_models import CharacterSchema
 
 
 def _gen_character_paths():

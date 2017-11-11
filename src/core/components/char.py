@@ -1,6 +1,3 @@
-from src.type_chart import STRONG_AGAINST, WEAK_AGAINST
-
-
 class Character():
     def __init__(self, name, interests, attacks, health, **kwargs):
         self.name = name

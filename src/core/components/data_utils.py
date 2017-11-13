@@ -1,7 +1,7 @@
 import json
 import os
 
-from src.core.attack import Attack
+from src.core.components.attack import Attack
 
 from paths import DATA_DIR
 from src.core.components.char import Character

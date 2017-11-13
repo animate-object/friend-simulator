@@ -4,5 +4,13 @@ class Character():
         self.interests = interests
         self.attacks = attacks
         self.health = health
-        self.effects = {}
+        self.effects = []
         self.__dict__.update(kwargs)
+
+    def __str__(self):
+        return self.name
+
+    def __repr__(self):
+        return "<name={}, interests={}, attacks=[{}], health={}>".format(
+            self.name, self.interests, ', '.join(str(attack) for attack in self.attacks), self.health
+        )

@@ -4,7 +4,7 @@ class Attack():
         self.types = types
         self.base_damage = base_damage
         self.name = name
-        self.cast = list(cast) if cast else ['{} appears to ' + name]
+        self.cast = list(cast) if cast else ['{caster} appears to ' + name]
         self.effects = effects if effects else []
         self.__dict__.update(kwargs)
 

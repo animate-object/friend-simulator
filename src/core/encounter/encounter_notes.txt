@@ -1,0 +1,29 @@
+A friendly encounter takes place between two posses.
+
+An encounter is composed of one or more conversations.
+
+What do we want to track during an encounter -- ?
+
+current partner
+health of each posse member
+
+
+a conversation ends when one of the partner hits zero health or are otherwise unable to continue
+a conversation ends when one of the partner chooses to leave
+
+a friendly encounter ends when all members of one posse are unable to converse
+a friendly encounter ends when one of the posse's chooses to leave
+
+the encounter should expose methods to step through conversations...
+
+we can't expose a static list of conversations since they require context dependent set up every time
+
+we can probably expose a current conversation that the UI can step through until it ends
+then the UI can attempt to get the next conversation and if None is returned, the encounter is over
+
+class Encounter
+    __init__(posse_1, posse_2)
+
+    get_available_posse_members()
+
+    next_conversation(partner_1, partner_2)

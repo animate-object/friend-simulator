@@ -23,6 +23,7 @@ def character_from_json(file_name, data_dir=None):
 
     return Character(
         raw_data.get('name'), raw_data.get('interests'), attacks, raw_data.get('health'),
+        raw_data.get('pn'), raw_data.get('ppn'), raw_data.get('opn'),
         **raw_data.get('other', {})
     )
 
@@ -40,5 +41,5 @@ def attack_from_json(file_name, data_dir=None):
 
     return Attack(
         raw_data.get('types'), raw_data.get('base_damage'), raw_data.get('name'), raw_data.get('effects'),
-        **raw_data.get('other', {})
+        raw_data.get('cast'), **raw_data.get('other', {})
     )

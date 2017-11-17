@@ -1,14 +1,14 @@
-"""
-NOTES
-A condition is an effect applied to a player.
-
-A player can have one condition at a time
-
-Conditions have a number of boolean properties that explain when they should be applied
-e.g. my_condition.modifies_damage_dealt == True | False
-     my_condition.modifies_damage_taken
-
-     my_condition.deals_damage_to_effected_over_time
+from random import random, seed
 
 
-"""
+class Effect():
+    def __init__(self, name, text, chance=None, custom_function=None):
+        seed()
+        self.chance = chance
+        self.custom_function = custom_function
+        self.has_custom = bool(custom_function)
+
+    def does_effect_happen(self, **inputs):
+        if self.custom_function:
+            return self.custom_function(**inputs)
+        return random() < self.chance
